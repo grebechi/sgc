@@ -1,5 +1,5 @@
 # Usa a imagem oficial do Tomcat
-FROM tomcat:9.0-jdk17
+FROM tomcat:10.1-jdk17
 
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
 

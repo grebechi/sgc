@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @GetMapping("/")
     public String home() {
-        return "<h1>Versão 3: Olá, Professor Roger Gonçalves Urdangarin! Deploy 3 via Jenkins.</h1>";
+        return "<h1>Versão 3: Olá, Professor Roger Gonçalves Urdangarin! Deploy 4 via Jenkins.</h1>";
     }
 }

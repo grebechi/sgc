@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @GetMapping("/")
     public String home() {
-        return "<h1>Etapa 2 do trabalho: Olá, Professor Roger Gonçalves Urdangarin! Deploy 01 via Jenkins. Utilizando um container Docker!</h1>";
+        return "<h1>Etapa 2 do trabalho: Olá, Professor Roger Gonçalves Urdangarin! Deploy 02 via Jenkins. Utilizando um container Docker!</h1>";
     }
 }
